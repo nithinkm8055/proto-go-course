@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "packages.proto";
+
+message MessageUsePackage {
+    my.package.MessagePackage date = 1;
+}

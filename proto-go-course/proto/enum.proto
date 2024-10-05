@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package example.enum;
+
+option go_package = "github.com/nithinkm8055/proto-go-course/proto";
+
+enum ColorType {
+    COLOR_TYPE_UNSPECIFIED = 0;
+    COLOR_TYPE_BLUE = 1;
+    COLOR_TYPE_RED = 2;
+    COLOR_TYPE_GREEN = 3;
+}
+
+message Enumeration {
+    ColorType color  = 1;
+}

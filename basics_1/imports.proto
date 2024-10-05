@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "same_level_message.proto";
+
+enum EnumImport {
+    ENUM_IMPORT_UNSPECIFIED = 0;
+}
+
+message MessageImport {
+    MessageOne one = 1;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message MessageParent {
+    message MessageChild {
+
+    }
+
+    enum EnumChild {
+        ENUM_CHILD_UNSPECIFIED = 0;
+    }
+
+    MessageChild one = 1;
+    EnumChild two = 2;
+}
